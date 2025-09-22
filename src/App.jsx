@@ -1,3 +1,4 @@
+import Header from "./Components/Header/Header"
 
 
 
@@ -5,9 +6,7 @@ function App() {
 
   return (
     <>
-      
-      <h1 className="text-2xl">Gadgets Heaven</h1>
-      <p>Update</p>
+      <Header></Header>
     </>
   )
 }
