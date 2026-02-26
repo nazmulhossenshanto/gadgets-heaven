@@ -1,11 +1,21 @@
 import React from 'react';
+import banner from '../assets/banner.jpg'
 
 const Home = () => {
     return (
         <div>
-            home
+            <div className='bg-[#9538E2] flex flex-col items-center relative py-5 space-y-5 pb-68'>
+                <h1 className='text-4xl text-white font-bold text-center '>Upgrade Your Tech Accessorize with <br /> Gadget Heaven Accessories</h1>
+                <p className='text-center text-white'> Explore the latest gadgets that will take your experience to the next level. From smart devices to 
+                    <br />
+                     the coolest accessories, we have it all!</p>
+                <button className='btn bg-white rounded-full text-[#9538E2] font-bold'>Shop Now</button>
+            </div>
+            <div className='absolute w-3/4 top-20 flex justify-center left-1/2  transform -translate-x-[50%] translate-y-[50%] '>
+        <img className=' h-120 w-auto rounded-2xl border-10 border-white/25' src={banner} alt="" />
+            </div>
         </div>
-    );
+    );  
 };
 
 export default Home;

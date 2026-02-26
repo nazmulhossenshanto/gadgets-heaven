@@ -1,0 +1,221 @@
+[
+      {
+    "product_id": 1,
+    "product_title": "Dell xps 13",
+    "product_image": "https://example.com/images/dell-inspiron.jpg",
+    "category": "Laptop",
+    "price": 135000,
+    "description": "Premium ultrabook from Dell with sleek design and powerful performance.",
+    "specification": [
+      "Intel Core i7 13th Gen",
+      "16GB RAM",
+      "512GB SSD",
+      "13.4 inch FHD+ Display",
+      "Windows 11"
+    ],
+    "availability": true,
+    "rating": 4.7
+  },
+   {
+    "product_id": 2,
+    "product_title": "Elite NoteBook ultra",
+    "product_image": "https://i.postimg.cc/Y0ZpHDxv/netbook-laptop.jpg",
+     "category": "Laptop",
+    "price": 95000,
+    "description": "Slim and lightweight notebook suitable for office and study work.",
+    "specification": [
+      "Intel Core i5 12th Gen",
+      "8GB RAM",
+      "512GB SSD",
+      "14 inch FHD Display",
+      "Windows 11"
+    ],
+    "availability": true,
+    "rating": 4.3
+  },
+   {
+    "product_id": 3,
+    "product_title": "Asus RogstrixG17",
+    "product_image": "https://i.postimg.cc/zB9zmP7f/asus-rog-strix-g17.jpg",
+    "category": "Laptop",
+    "price": 185000,
+    "description": "High-performance gaming laptop built for competitive gaming.",
+    "specification": [
+      "AMD Ryzen 9",
+      "16GB RAM",
+      "1TB SSD",
+      "17.3 inch 144Hz Display",
+      "NVIDIA RTX 4060"
+    ],
+    "availability": true,
+    "rating": 4.8
+  },
+   {
+    "product_id": 4,
+    "product_title": "Lenovo G8",
+    "product_image": "https://i.postimg.cc/vB7qM4Lc/lenovo-laptop.jpg",
+    "category": "Laptop",
+  "price": 88000,
+  "description": "Reliable Lenovo laptop designed for students and office productivity.",
+  "specification": [
+    "Intel Core i5 12th Gen",
+    "8GB RAM",
+    "512GB SSD",
+    "15.6 inch FHD Display",
+    "Windows 11"
+  ],
+  "availability": true,
+  "rating": 4.4
+  },
+   {
+    "product_id": 5,
+    "product_title": "Hp Lesarzet",
+    "product_image": "https://i.postimg.cc/q7sX69hJ/hp-laptop.jpg",
+    "category": "Laptop",
+  "price": 82000,
+  "description": "HP everyday use laptop with solid performance and elegant design.",
+  "specification": [
+    "Intel Core i5 11th Gen",
+    "8GB RAM",
+    "512GB SSD",
+    "15.6 inch FHD Display",
+    "Windows 11"
+  ],
+  "availability": true,
+  "rating": 4.3
+  },
+   {
+    "product_id": 6,
+    "product_title": "Asus Prime",
+    "product_image": "https://i.postimg.cc/MTXHJB8j/asus-laptop.jpg",
+    "category": "Laptop",
+    "price": 92000,
+  "description": "Stylish ASUS laptop suitable for multitasking and office work.",
+  "specification": [
+    "Intel Core i7 12th Gen",
+    "16GB RAM",
+    "512GB SSD",
+    "14 inch FHD Display",
+    "Windows 11"
+  ],
+  "availability": true,
+  "rating": 4.5
+  },
+   {
+    "product_id": 7,
+    "product_title": "Refurbish Laptop",
+    "product_image": "https://i.postimg.cc/Ls8jCvN3/refurbish-laptop.jpg",
+    "category": "Laptop",
+    "price": 45000,
+  "description": "Certified refurbished laptop offering good performance at a budget price.",
+  "specification": [
+    "Intel Core i5 10th Gen",
+    "8GB RAM",
+    "256GB SSD",
+    "15.6 inch HD Display",
+    "Windows 10"
+  ],
+  "availability": true,
+  "rating": 4.1
+  },
+   {
+    "product_id": 8,
+    "product_title": "Google Pixel7",
+    "product_image": "https://i.postimg.cc/3rt5zwrM/google-pixel-phone.jpg",
+    "category": "Phone",
+    "price": 85000,
+    "description": "Flagship smartphone with pure Android experience.",
+    "specification": [
+      "Google Tensor G2",
+      "8GB RAM",
+      "128GB Storage",
+      "6.3 inch AMOLED",
+      "50MP Dual Camera"
+    ],
+    "availability": true,
+    "rating": 4.6
+  },
+   {
+    "product_id": 9,
+    "product_title": "iPhone14 pro",
+    "product_image": "https://i.postimg.cc/bJvLnp7D/apple-i-Phone14-pro.jpg",
+    "category": "Phone",
+     "price": 165000,
+    "description": "Premium Apple smartphone with advanced camera system and A16 chip.",
+    "specification": [
+      "A16 Bionic Chip",
+      "6GB RAM",
+      "128GB Storage",
+      "6.1 inch Super Retina XDR",
+      "48MP Triple Camera"
+    ],
+    "availability": true,
+    "rating": 4.9
+  },
+   {
+    "product_id": 10,
+    "product_title": "Samsung galaxy S24 ultra",
+    "product_image": "https://i.postimg.cc/wvtfP9wH/samsung-galaxy-s24-ultra.jpg",
+    "category": "Phone",
+    "price": 175000,
+    "description": "Ultra-premium Samsung flagship with S Pen and powerful camera.",
+    "specification": [
+      "Snapdragon 8 Gen 3",
+      "12GB RAM",
+      "256GB Storage",
+      "6.8 inch AMOLED 120Hz",
+      "200MP Camera"
+    ],
+    "availability": true,
+    "rating": 4.8
+
+  },
+   {
+    "product_id": 11,
+    "product_title": "Apple airpods max",
+    "product_image": "https://i.postimg.cc/vTFzNf1Z/apple-airpods-max.jpg",
+    "category": "accessories",
+    "price": 85000,
+    "description": "Over-ear premium noise cancelling headphones by Apple.",
+    "specification": [
+      "Active Noise Cancellation",
+      "Spatial Audio",
+      "Bluetooth 5.0",
+      "20 Hours Battery Life"
+    ],
+    "availability": true,
+    "rating": 4.6
+  },
+   {
+    "product_id": 12,
+    "product_title": "Apple airpods pro 2nd gen",
+    "product_image": "https://i.postimg.cc/jj6dfrzp/apple-airpods-pro-2nd-gen.jpg",
+    "category": "accessories",
+   "price": 32000,
+    "description": "Compact wireless earbuds with advanced noise cancellation.",
+    "specification": [
+      "Active Noise Cancellation",
+      "H2 Chip",
+      "Spatial Audio",
+      "6 Hours Listening Time"
+    ],
+    "availability": true,
+    "rating": 4.7
+  },
+   {
+    "product_id": 13,
+    "product_title": "Quit Comfort earbuds",
+    "product_image": "https://i.postimg.cc/N0VqLJnJ/bose-quiet-Comfort-earuds-11.jpg",
+    "category": "accessories",
+    "price": 30000,
+    "description": "Premium Bose wireless earbuds with immersive sound.",
+    "specification": [
+      "Active Noise Cancellation",
+      "Bluetooth 5.3",
+      "IPX4 Water Resistant",
+      "8 Hours Battery Life"
+    ],
+    "availability": true,
+    "rating": 4.5
+  }
+]
