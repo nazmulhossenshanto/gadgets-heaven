@@ -9,7 +9,11 @@ const Navbar = () => {
       <li>
         <NavLink
           className={({ isActive }) =>
-            `text-gray-500 text-lg p-2 rounded-lg ${isActive ? "text-warning" : "hover:text-warning"}`
+            ` text-lg p-2 rounded-lg ${
+              isActive
+                ? "text-[#9538E2] font-semibold"
+                : "text-gray-500 hover:text-[#9538E2]"
+            }`
           }
           to="/"
         >
@@ -19,7 +23,11 @@ const Navbar = () => {
       <li>
         <NavLink
           className={({ isActive }) =>
-            `text-gray-500 text-lg p-2 rounded-lg ${isActive ? "text-warning" : "hover:text-warning"}`
+            ` text-lg p-2 rounded-lg ${
+              isActive
+                ? "text-[#9538E2] font-semibold"
+                : "text-gray-500 hover:text-[#9538E2]"
+            }`
           }
           to="/statistics"
         >
@@ -29,7 +37,11 @@ const Navbar = () => {
       <li>
         <NavLink
           className={({ isActive }) =>
-            `text-gray-500 text-lg p-2 rounded-lg ${isActive ? "text-warning" : "hover:text-warning"}`
+            ` text-lg p-2 rounded-lg ${
+              isActive
+                ? "text-[#9538E2] font-semibold"
+                : "text-gray-500 hover:text-[#9538E2]"
+            }`
           }
           to="/dashboard"
         >

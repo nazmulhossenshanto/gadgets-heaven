@@ -9,7 +9,7 @@ const MainLayouts = () => {
       {/* <ToastContainer position="top-center" /> */}
 
       {/* Navbar */}
-      <div className="h-16">
+      <div className="h-18">
         <Navbar></Navbar>
       </div>
       {/* Dynamic Section */}
