@@ -5,15 +5,16 @@ import { MdStarBorder } from "react-icons/md";
 import { TiStarFullOutline } from "react-icons/ti";
 import { FaRegHeart } from "react-icons/fa6";
 import { MdOutlineShoppingCart } from "react-icons/md";
+import { addToCart } from "../utils/cart";
+import { addToWishList } from "../utils/wishList";
 
 const ProductDetails = () => {
   const allProducts = useLoaderData();
   const params = useParams();
   const id = Number(params.id);
-  console.log(allProducts, id);
   const product = allProducts.find((p) => p.product_id === id);
-  console.log(product);
-  const {
+  
+  const { 
     product_image,
     price,
     product_title,
@@ -40,14 +41,14 @@ const ProductDetails = () => {
               <h1 className="text-2xl font-bold">{product_title}</h1>
               <p className="text-sm">Price: $ {price}</p>
               <p className="text-gray-500">{description}</p>
-              <p>
-                <span className="font-bold text-xl">Specification :</span>
-                {specification.map((sp, idx) => (
-                  <ul className="text-gray-500" key={idx}>
-                    {idx + 1}. {sp}
-                  </ul>
-                ))}
-              </p>
+              <div>
+  <span className="font-bold text-xl">Specification :</span>
+  <ul className="text-gray-500 list-decimal ml-5">
+    {specification.map((sp, idx) => (
+      <li key={idx}>{sp}</li>
+    ))}
+  </ul>
+</div>
               <div className="flex items-center">
                 <p className="text-xl font-bold">Rating</p>{" "}
                 <MdStarBorder size={22} className="text-yellow-400" />
@@ -62,10 +63,10 @@ const ProductDetails = () => {
                 <p className="text-black">{rating}</p>
               </div>
               <div className="flex items-center gap-5">
-                <button className="btn bg-[#9538E2] rounded-full p-5 text-white font-bold">
+                <button onClick={()=>addToCart(product)} className="btn bg-[#9538E2] rounded-full p-5 text-white font-bold">
                   Add To Card <MdOutlineShoppingCart size={22} />
                 </button>
-                <button className="btn btn-circle text-2xl">
+                <button onClick={()=> addToWishList(product)} className="btn btn-circle text-2xl">
                   <FaRegHeart />
                 </button>
               </div>

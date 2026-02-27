@@ -5,11 +5,10 @@ import { useLoaderData } from "react-router";
 
 const Home = () => {
     const data = useLoaderData();
-    console.log(data);
   return (
     <div>
       <header>
-        <div className="bg-[#9538E2] flex flex-col items-center relative py-5 mt-3 space-y-5 pb-68">
+        <div className="bg-[#9538E2] flex flex-col items-center relative py-5  space-y-5 pb-68">
           <h1 className="text-4xl text-white font-bold text-center ">
             Upgrade Your Tech Accessorize with <br /> Gadget Heaven Accessories
           </h1>
